@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
+  "engines": {
+    "node": "12.9.0",
+    "npm": "6.10;2",
+    "yarn": "1.9.4"
+  },
   "scripts": {
     "lite": "lite-server",
     "start": "npm run watch:all",
