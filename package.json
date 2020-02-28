@@ -5,7 +5,7 @@
   "main": "index.html",
   "engines": {
     "node": "12.9.0",
-    "npm": "6.10;2",
+    "npm": "6.10.2",
     "yarn": "1.9.4"
   },
   "scripts": {
