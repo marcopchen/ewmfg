@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- build:css css/main.css -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+<!-- animations -->
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- endbuild -->
+
+
+    <title>East West Manufacturing</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="EWMLogoSolo.png" class="EWlogo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactus.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+<!--header-->
+    <header class="bg-img-portfolio bg-overlay jumbotron jumbotron-fluid">
+        <div class="overlay"></div>
+          <div class="inner">
+
+                <h1 class="display-4 animated flipInX">Portfolio</h1>
+          <div class="container">        
+        </div>
+        </div>
+  </header> 
+
+
+  <div class="container">
+        <div class="row">
+            <!--schools-->
+          <div class="col-sm">
+            <div class="view overlay my-img" style="background: url('Schools.jpg')">
+                    <div class="mask flex-center rgba-blue-strong">
+                    </div>  
+                </div>
+        <div class="card-body">
+          <!-- Button trigger modal -->
+          <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class= "button-row animated lightSpeedIn">
+                            <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalSchools">
+                            Schools
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="PortfolioModalSchools" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="PortfolioModalTitle">Schools</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <a href="https://www.ringgold.org/">Ringgold School District</a><br />
+                    <a href="https://www.qvsd.org//">Quaker Valley</a><br />
+                    <a href="https://www.calu.edu/">University of Pittsburgh</a><br />
+                    <a href="https://www.pitt.edu/">California University of Pennsylvania</a><br />
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--healthcare-->
+    <div class="col-sm">
+            <div class="view overlay my-img" style="background: url('Healthcare.jpg')">
+                    <div class="mask flex-center rgba-blue-strong">
+                    </div>  
+                </div>
+            <div class="card-body">
+              <!-- Button trigger modal -->
+              <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class= "button-row animated lightSpeedIn">
+                                <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalHealthcare">
+                                Healthcare
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      
+                <!-- Modal -->
+                <div class="modal fade" id="PortfolioModalHealthcare" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="PortfolioModalTitle">Healthcare</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        UPMC Hospital
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--hotels-->
+            <div class="col-sm">
+                <div class="view overlay my-img" style="background: url('hotel.jpg')">
+                    <div class="mask flex-center rgba-blue-strong">
+                    </div>  
+                </div>
+
+                <div class="card-body">
+                       <!-- Button trigger modal -->
+                       <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <div class= "button-row animated lightSpeedIn">
+                                        <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalHospitality">
+                                        Hospitality
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              
+                        <!-- Modal -->
+                        <div class="modal fade" id="PortfolioModalHospitality" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="PortfolioModalTitle">Hospitality</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                <a href="https://www.wyndhamhotels.com/wyndham-grand/pittsburgh-pennsylvania/wyndham-grand-pittsburgh-downtown/overview?iata=03717490">Wyndham Grand Hotel Pittsburgh</a><br />
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--commercial-->
+            <div class="col-sm">
+                    <div class="view overlay my-img" style="background: url('commercial.jpg')">
+                            <div class="mask flex-center rgba-blue-strong">
+                            </div>  
+                        </div>
+                    <div class="card-body">
+                      <!-- Button trigger modal -->
+                      <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <div class= "button-row animated lightSpeedIn">
+                                        <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalCommercial">
+                                        Commercial
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              
+                        <!-- Modal -->
+                        <div class="modal fade" id="PortfolioModalCommercial" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="PortfolioModalTitle">Commercial</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                PPG Paints <br />
+                                <a href="https://www.ryconinc.com/">Rycon</a><br />
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--bars-->
+                <div class="col-sm">
+                        <div class="view overlay my-img" style="background: url('bar.jpg')">
+                                <div class="mask flex-center rgba-blue-strong">
+                                </div>  
+                            </div>
+                        <div class="card-body">
+                          <!-- Button trigger modal -->
+                          <div class="container">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <div class= "button-row animated lightSpeedIn">
+                                            <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalFoodBev">
+                                            Food & Beverage
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                            <!-- Modal -->
+                            <div class="modal fade" id="PortfolioModalFoodBev" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="PortfolioModalTitle">Food & Beverage</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Sienna Mercato
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--retail-->
+                    <div class="col-sm">
+                        <div class="view overlay my-img" style="background: url('retail.jpg')">
+                                <div class="mask flex-center rgba-blue-strong">
+                                </div>  
+                            </div>
+                            <div class="card-body">
+                              <!-- Button trigger modal -->
+                              <div class="container">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <div class= "button-row animated lightSpeedIn">
+                                                <button type="button" class="btn btn-lg button-portfolio" data-toggle="modal" data-target="#PortfolioModalRetail">
+                                                Retail
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                      
+                                <!-- Modal -->
+                                <div class="modal fade" id="PortfolioModalRetail" tabindex="-1" role="dialog" aria-labelledby="PortfolioModalTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="PortfolioModalTitle">Retail</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                        Pittsburgh Mills Mall
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+    </div>
+</div>
+
+
+ <!--footer-->
+ <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html"class="footer-text">Home</a></li>
+                    <li><a href="about.html"class="footer-text">About</a></li>
+                    <li><a href="portfolio.html"class="footer-text">Portfolio</a></li>
+                    <li><a href="contactus.html"class="footer-text">Contact</a></li>
+                </ul>
+            </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col text-center">
+                                <h5>Affiliations</h5>
+                                <a class="navbar-brand" href="https://www.mcaa.org/"><img src="MCAA.png" class="PartnerLogo"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-sm-4 text-center">
+                <i class="fa fa-phone fa-lg footer-icon"></i> (412) 207-7385<br />
+                <i class="fa fa-envelope fa-lg footer-icon"></i> office@eastwestmfg.com
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</body>
+
+</html>

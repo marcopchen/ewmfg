@@ -1,0 +1,193 @@
+body {
+  font-family: 'Noto Sans KR';
+  background-color: #EFEFEF;
+}
+
+.jumbotron {
+  color: white;
+  text-align: center;
+  text-anchor: center;
+  font-family: 'Noto Sans KR';
+}
+
+
+.bg-img-index {
+  background-image: url("pgh.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 640px;
+}
+
+.index-img {
+  height: 500px;
+}
+
+.bg-img-portfolio {
+  background-image: url("pink.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 640px;
+  z-index: -10;
+}
+
+
+.button-portfolio {
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+
+.carousel-inner > .carousel-item > .img {
+  height: 600px;
+  width: 400px;
+  align-content: center;
+
+}
+
+.carousel-inner {
+  padding: 30px;
+
+}
+
+
+.button-row {
+  width: 100%;
+  align-content: center;
+}
+
+.bg-img-about {
+  background-image: url("pipes.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 640px;
+  z-index: -10;
+}
+
+.bg-img-contact {
+  background-image: url("phone.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 640px;
+  z-index: -10;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.jumbotron > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(77, 77, 102, 0.85);
+}
+
+.jumbotron > .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.display-4 {
+  padding-top: 250px;
+
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.page-header {
+  display: flex;
+  text-align: right;
+}
+
+.nav {
+  flex: 1;
+  vertical-align: bottom;
+  margin-top: 30px;
+  text-align: right;
+  width: 100;
+}
+
+.EWlogo {
+  width: 25%;
+
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.site-footer {
+  background-color:rgba(120, 120, 134, 0.85);
+  padding: 40px;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer-text {
+  color: rgb(169, 231, 255);
+}
+
+.footer-icon {
+  color: rgb(169, 231, 255);
+}
+.PartnerLogo {
+  height: 50%;
+  width: 60%;
+  align-content: center;
+}
+
+.card-deck {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.carousel-slide {
+  align-content: center;
+}
+
+.my-carousel {
+  margin-bottom: 30px;
+}
+.contact-page {
+  padding: 90px;
+}
+
+.d-block {
+  height: 500px;
+  margin: auto;
+}
+
+.my-img {
+  height: 400px;
+  width: 500px;
+  background-position: center !important;
+  background-attachment: scroll !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+@media screen and (max-width: 40em){
+  .my-img {
+    height:200px !important;
+  }
+}
+
+.card-about {
+  text-align: center;
+  margin: 10px;
+}
